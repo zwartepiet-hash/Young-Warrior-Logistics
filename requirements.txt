@@ -1,0 +1,7 @@
+gradio
+deep-translator
+gTTS
+fpdf2
+openai-whisper
+librosa
+soundfile
