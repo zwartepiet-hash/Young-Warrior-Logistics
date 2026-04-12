@@ -1,23 +1,46 @@
-# 🚀 Young Warrior Logistics Dashboard
-**AI-Driven Dynamic Freight Cost Calculator with Real-Time Crypto Integration**
+# 📊 Young Warrior Logistics Dashboard
 
-### 🛠 Tech Stack
-*   **Backend:** Python 3.x
-*   **Frontend:** Gradio (UI Blocks)
-*   **Data Source:** CoinGecko API (Real-time BTC/USD)
-*   **Reporting:** FPDF (Multi-language Automated PDF Generation)
-*   **Visualization:** Matplotlib
+An AI-driven logistics management tool designed to calculate dynamic freight costs and surcharges by integrating real-time market data.
 
-### 💡 Core Concept
-A professional logistics management tool designed for the 2026 market. It calculates dynamic shipping surcharges based on live Bitcoin market volatility, ensuring real-time cost optimization.
+## 🚀 Key Features
+- **Dynamic Pricing:** Automated shipping surcharge calculation based on real-time Bitcoin (BTC) market volatility.
+- **Logistics Intelligence:** Integrated database for freight cost estimation and route tracking.
+- **Data Visualization:** Interactive charts for market trends and logistics expenses.
+- **Crypto Integration:** Live currency conversion for modern digital finance-based logistics.
 
-### 🌟 Key Features
-*   **Multi-language Support:** HU, EN, DE, FR, ES integration.
-*   **Secure Access:** Role-based authentication simulation.
-*   **Automated Reporting:** One-click PDF export for logistics audits.
-*   **API Resilience:** Built-in error handling and rate-limit management (HTTP 429).
+## 🛠️ Technical Stack
+- **Language:** Python 3.10+
+- **Frontend:** Gradio (Web Interface)
+- **Data Analysis:** Pandas, NumPy
+- **APIs:** CoinGecko (Live Crypto Data)
+- **Plotting:** Matplotlib
 
-### 🚀 How to Run (Google Colab / Local)
-1. Clone the repo: `git clone https://github.com`
-2. Install dependencies: `pip install gradio requests matplotlib fpdf`
-3. Run the script and access the public/local URL.
+## 📦 Usage
+1. Clone the repository.
+2. Install dependencies: `pip install -r requirements.txt`.
+3. Launch the dashboard: `python app.py`.
+
+---
+*Part of the Zwartepiet-hash Ecosystem.*
+
+# 🛡️ Warrior Translator v4.1 (Elite Edition)
+
+A high-performance, AI-powered simultaneous interpretation and reporting tool for professional multilingual environments.
+
+## 🚀 Key Features
+- **Precision STT:** Powered by OpenAI Whisper `large-v3` for superior speech-to-text accuracy.
+- **Global Communication:** Instant translation between Hungarian, English, and German.
+- **AI Voice Output:** High-quality Text-to-Speech (gTTS) for the target language.
+- **Mission Logging:** Automated, formatted PDF report generation with multi-line support and special character encoding.
+
+## 🛠️ Technical Stack
+- **AI Models:** OpenAI Whisper (Large-v3), Google Translate API.
+- **Audio Processing:** Librosa, Soundfile.
+- **Reporting:** FPDF2 (PDF generation).
+- **Interface:** Gradio (International Edition UI).
+
+## 🌍 Deployment
+Running 24/7 on Hugging Face Spaces. Access the live tool for instant field interpreting.
+
+---
+*Part of the Zwartepiet-hash Ecosystem.*
