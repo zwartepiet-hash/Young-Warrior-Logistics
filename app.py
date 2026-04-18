@@ -26,7 +26,7 @@ def translate_speech(audio_path, source_lang, target_lang):
         print("Loading Large-v3 model on GPU...")
         model = whisper.load_model("large-v3", device="cuda")
         
-    lang_codes = {"Magyar": "hu", "English": "en", "Deutsch": "de"}
+    lang_codes = {"Magyar": "hu", "English": "en", "Deutsch": "de", "Swahili": "sw"}
     src, dst = lang_codes[source_lang], lang_codes[target_lang]
     
     audio_res = None
@@ -77,9 +77,9 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
     gr.Markdown("# 🛡️ Warrior Translator v5.1 - ZeroGPU Pro Edition")
     with gr.Row():
         with gr.Column():
-            src_lang = gr.Dropdown(choices=["Magyar", "English", "Deutsch"], value="Magyar", label="Source Language / Forrásnyelv")
+            src_lang = gr.Dropdown(choices=["Magyar", "English", "Deutsch", "Swahili"], value="Magyar", label="Source Language / Forrásnyelv")
             audio_in = gr.Audio(sources=["microphone"], type="filepath", label="🎤 Record / Hang rögzítése")
-            target_lang = gr.Dropdown(choices=["Magyar", "English", "Deutsch"], value="English", label="Target Language / Célnyelv")
+            target_lang = gr.Dropdown(choices=["Magyar", "English", "Deutsch", "Swahili"], value="English", label="Target Language / Célnyelv")
             start_btn = gr.Button("⚔️ START TRANSLATION / FORDÍTÁS", variant="primary")
         with gr.Column():
             text_out = gr.Textbox(label="Translated Text / Lefordított szöveg")
