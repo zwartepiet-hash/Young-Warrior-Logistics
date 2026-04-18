@@ -74,7 +74,7 @@ def save_to_pdf(history):
 
 # --- 3. UI (VÁLTOZATLAN) ---
 with gr.Blocks(theme=gr.themes.Soft()) as demo:
-    gr.Markdown("# 🛡️ Warrior Translator v5.1 - ZeroGPU Pro Edition")
+    gr.Markdown("# 🛡️ Warrior Translator v5.4 - ZeroGPU Pro Edition")
     with gr.Row():
         with gr.Column():
             src_lang = gr.Dropdown(choices=["Magyar", "English", "Deutsch", "Swahili"], value="Magyar", label="Source Language / Forrásnyelv")
