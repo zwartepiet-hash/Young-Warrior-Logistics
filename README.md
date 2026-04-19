@@ -29,7 +29,7 @@ A high-performance, AI-powered simultaneous interpretation and reporting tool fo
 
 ## 🚀 Key Features
 - **Precision STT:** Powered by OpenAI Whisper `large-v3` for superior speech-to-text accuracy.
-- **Global Communication:** Instant translation between Hungarian, English, and German.
+- **Global Communication:** Instant translation between Hungarian, English, Swahili and German.
 - **AI Voice Output:** High-quality Text-to-Speech (gTTS) for the target language.
 - **Mission Logging:** Automated, formatted PDF report generation with multi-line support and special character encoding.
 
